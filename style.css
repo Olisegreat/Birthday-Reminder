@@ -4,6 +4,9 @@
   text-decoration: none;
   list-style-type: none;
 }
+body,html{
+  height: 100%;
+}
 .page {
   display: flex;
   height: 100%;
@@ -61,7 +64,7 @@
 .total-birthdays {
   color: black;
   width: 100%;
-  height: 91%;
+  height: 100%;
   position: relative;
 }
 .made-birthday {
@@ -356,9 +359,9 @@
   color: rgb(110, 96, 96);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   .birthday-remainder {
     /* width: 380px; */
-    height: 50vh;
+    height: 100%;
   }
 }
